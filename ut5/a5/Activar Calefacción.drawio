@@ -1,0 +1,107 @@
+<mxfile host="65bd71144e">
+    <diagram id="FqA6xlqX3A5VDJnmprue" name="Page-1">
+        <mxGraphModel dx="285" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="90" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="1630" y="79" width="1400" height="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="html=1;whiteSpace=wrap;" parent="90" vertex="1">
+                    <mxGeometry x="-20" y="-21" width="1420" height="691" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Usuario" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="90" vertex="1">
+                    <mxGeometry width="80" height="646" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" style="edgeStyle=none;html=1;curved=0;rounded=0;startSize=11;endSize=15;" parent="90" source="62" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="80" y="596"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="62" value="AplicacionMovil" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="90" vertex="1">
+                    <mxGeometry x="210" width="110" height="646" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="62" vertex="1">
+                    <mxGeometry x="50" y="156" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" style="edgeStyle=none;html=1;curved=0;rounded=0;endSize=15;" parent="90" source="64" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="645" y="585.9999999999998" as="sourcePoint"/>
+                        <mxPoint x="269.57142857142844" y="585.9999999999998" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="290" y="566"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" value="ControladorDomotico" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=26;" parent="90" vertex="1">
+                    <mxGeometry x="530" width="160" height="646" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="64" vertex="1">
+                    <mxGeometry x="75" y="244" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="ServicioClima" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="90" vertex="1">
+                    <mxGeometry x="910" width="110" height="646" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="65" vertex="1">
+                    <mxGeometry x="50" y="336" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="RepositorioEventos" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="90" vertex="1">
+                    <mxGeometry x="1250" width="130" height="646" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="66" vertex="1">
+                    <mxGeometry x="60" y="436" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" style="edgeStyle=none;html=1;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;startSize=15;" parent="90" source="67" target="61" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="1: clickActivarCalefacción()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="60" y="136" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;html=1;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;startArrow=classic;startFill=1;endSize=5;startSize=15;endArrow=none;endFill=0;" parent="90" source="70" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="2: activarCalefacción(idVivienda, temperaturaObjetivo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="280" y="216" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;startSize=15;" parent="90" source="73" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="3: encenderSistema(idVivienda, temperaturaObjetivo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="630" y="314" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="5: registratEvento(idViviendo, &quot;calefacción_activada&quot;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="980" y="406" width="310" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;curved=0;rounded=0;startArrow=none;startFill=0;endArrow=open;endFill=0;dashed=1;startSize=10;endSize=15;" parent="90" source="65" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="944.5" y="426" as="sourcePoint"/>
+                        <mxPoint x="610" y="426" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="80" value="4: true" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="755" y="396" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" style="edgeStyle=none;html=1;curved=0;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;startSize=15;" parent="90" source="76" target="64" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" style="edgeStyle=none;html=1;curved=0;rounded=0;startSize=7;endSize=15;" parent="90" source="66" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1310" y="546" as="sourcePoint"/>
+                        <mxPoint x="609.3235294117646" y="546" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" value="6: {idEvento, fechaRegistro}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="1050" y="516" width="170" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="7: resultadoActicación(objetoEvento)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="325" y="536" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="8: mostrarConfirmacion(idEvento)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="90" vertex="1">
+                    <mxGeometry x="60" y="566" width="200" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
