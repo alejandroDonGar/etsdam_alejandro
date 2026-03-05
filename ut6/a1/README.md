@@ -52,18 +52,18 @@ tipo de caso de prueba
 
 Debes entregar una tabla con el siguiente formato:
 
-|  ID | ENTRADA | RESULTADO | TIPO DE CASO |
-|:---:|:-------:|:---------:|:------------:|
-| CP1 |         |           |              |
-| CP2 |         |           |              |
-| CP3 |         |           |              |
-| CP4 |         |           |              |
-| CP5 |         |           |              |
-| CP6 |         |           |              |
-| CP7 |         |           |              |
-| CP8 |         |           |              |
-| CP9 |         |           |              |
-| CP10|         |           |              |
+|  ID  |            ENTRADA            | RESULTADO | TIPO DE CASO  |
+|:----:|:-----------------------------:|:---------:|:-------------:|
+| CP1  |  [5,6.3,7.8,9,2.3,6.7,4.21]   |   5.90    |  Caso normal  |
+| CP2  |           [-2,12,3]           |   Error   | Caso erróneo |
+| CP3  |          [10,10,10]           |   10.0    | Caso límite  |
+| CP4  |              [0]              |    0.0    | Caso límite  |
+| CP5  |              []               |   Error   | Caso erróneo |
+| CP6  | [9.8,2.3,4.5,2.6,8.6,5.4,6.5] |   5.67    |  Caso normal  |
+| CP7  |          [420,67,21]          |   Error   | Caso erróneo |
+| CP8  | [8.9,7.8,9.9,10,8.6,6.7,9.8]  |   8.81    |  Caso normal  |
+| CP9  |             [10]              |   10.0    | Caso límite  |
+| CP10 |     [6.7,5.4,6.7,8.4,9.3]     |    7.3    |  Caso normal  |
 
 Tipos de caso posibles:
 
