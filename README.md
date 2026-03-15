@@ -1,2 +1,1 @@
-# etsdam_alejandrodonategarcia
-Repositorio de trabajo para 1ºDAM
+Repositorio de trabajo para la asignatura de Entornos de Desarrollo de 1ºDAM
