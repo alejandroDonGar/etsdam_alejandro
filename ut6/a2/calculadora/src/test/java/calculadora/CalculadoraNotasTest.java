@@ -19,10 +19,16 @@ public class CalculadoraNotasTest {
     void testMediaDecimal() {
     assertEquals(8.5, CalculadoraNotas.calcularMedia(new int[] { 10, 9, 8, 7 }), 0.0001);
     }
+    /**
+     * Este test salta cuando se detecta que el calculo de la nota media es vacio
+     */
     @Test
     void testMediaListaVacia() {
     assertThrows(IllegalArgumentException.class, () -> CalculadoraNotas.calcularMedia(new int[] {}));
     }
+    /**
+     * Este test salta cuando se detecta que el calculo de la nota media es nulo
+     */
     @Test
     void testMediaNull() {
     assertThrows(IllegalArgumentException.class, () -> CalculadoraNotas.calcularMedia(null));
