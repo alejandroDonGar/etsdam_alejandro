@@ -239,8 +239,12 @@ Tests passed: 5
 Responde a las siguientes preguntas:
 
 - ¿Todos tus tests pasan correctamente?
+     - Sí, como se ve en la captura de cobertura. Todos los test pasan:
+
+     ![Cobertura](img/Cobertura.png)
 - En caso de que alguno falle, explica por qué.
 - ¿Has detectado algún error en el código proporcionado? Explica cuál es.
+    - Al principio un error que había era que al calcular la media, esta calculaba unicamente numero enteros. Se cambió despues para que dejara devolver notas con decimal.
 
 ### Entrega
 
