@@ -1,4 +1,4 @@
-package calculadora.src.main.java.calculadora;
+package calculadora;
 /**
  * @author AlejandroDonGar
  * @version 1.0.0

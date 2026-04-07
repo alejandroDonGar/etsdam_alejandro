@@ -1,11 +1,11 @@
-package calculadora.src.test.java.calculadora;
+package calculadora;
 /**
  * @author AlejandroDonGar
  * @version 1.0.0
- * Clase CalculadoraNotasTest
+ * Clase CalculadoraNotas que usamos para calcular notas 
  */
-import calculadora.src.main.java.calculadora.CalculadoraNotas;
-import org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 /**
  * Clase CalculadoraNotasTest donde probaremos distintos test para la seguridad del codigo
