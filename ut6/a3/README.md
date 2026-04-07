@@ -224,7 +224,7 @@ Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conse
 
 ## Cobertura Tests:
 
-![cobertura_test](img/Cobertura%20Tests%20-%20JaCoCo.png)
+![cobertura_test](img/Cobertura%20Test%20-%20JaCoCo.png)
 
 ### Reflexión final
 
