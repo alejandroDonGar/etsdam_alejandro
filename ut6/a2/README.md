@@ -71,26 +71,65 @@ if(CalculadoraNotas.calcularMedia(new int[]{6,7,8}) != 7){
 Inserta el código del programa aquí:
 
 ```java
+package calculadora;
+/**
+ * @author AlejandroDonGar
+ * @version 1.0.0
+ * Clase Main donde probaremos distintos casos para la seguridad del codigo
+ */
+public class Main {
+    public static void main(String[] args) {
+        //<------------------------------------------------------------------------>
+        // Caso 1: varias notas
+        System.out.println("Caso 1: varias notas");
+        System.out.println(CalculadoraNotas.calcularMedia(new int[]{6, 7, 8}));
 
+        System.out.println();
+        //<------------------------------------------------------------------------>
+        // Caso 2: una sola nota
+        System.out.println("Caso 2: una sola nota");
+        System.out.println(CalculadoraNotas.calcularMedia(new int[]{9}));
+
+        System.out.println();
+        //<------------------------------------------------------------------------>
+        // Caso 3: lista vacía
+        System.out.println("Caso 3: lista vacía");
+        try {
+            System.out.println(CalculadoraNotas.calcularMedia(new int[]{}));
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+
+        System.out.println();
+        //<------------------------------------------------------------------------>
+        // Caso 4: nota fuera de rango
+        System.out.println("Caso 4: nota fuera de rango");
+        try {
+            System.out.println(CalculadoraNotas.calcularMedia(new int[]{5, 12, 8}));
+        } catch (Exception e) {
+            System.out.println("Error");
+        }
+    }
+}
 ```
 
 Adjunta una captura de pantalla de la terminal de:
 
-+ Varias notas:
+## Varias notas:
 
-![](/daw/img/img/001.png)
+![V.Notas](img/Varias%20Notas.png)
 
-+ Una sola nota:
+## Una sola nota:
 
-![](/daw/img/img/002.png)
+![U.Nota](img/Una%20Nota%20Sola.png)
 
-+ Lista vacía
+## Lista vacía
 
-![](/daw/img/img/003.png)
+![L.Vacia](img/Lista%20Vacia.png)
 
-+ Nota fuera de rango
+## Nota fuera de rango
 
-![](/daw/img/img/004.png)
+![F.Rango](img/Nota%20Fuera%20de%20Rango.png)
 
 ### Tests con **JUnit**
 
@@ -123,7 +162,59 @@ public class CalculadoraNotasTest {
 Inserta el código del programa aquí con todos los tests:
 
 ```java
-
+package calculadora;
+/**
+ * @author AlejandroDonGar
+ * @version 1.0.0
+ * Clase CalculadoraNotas que usamos para calcular notas 
+ */
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.Test;
+/**
+ * Clase CalculadoraNotasTest donde probaremos distintos test para la seguridad del codigo
+ */
+public class CalculadoraNotasTest {
+    /**
+     * Este test comprueba que el calculo de la nota media es correcto
+     */
+    @Test
+    void testMediaSimple() {
+        assertEquals(7.0, CalculadoraNotas.calcularMedia(new int[]{6, 7, 8}));
+    }
+    /**
+     * Este test comprueba que el calculo de la nota media es correcto con decimales
+     */
+    @Test
+    void testMediaDecimal() {
+        assertEquals(8.5, CalculadoraNotas.calcularMedia(new int[]{10, 9, 8, 7}));
+    }
+    /**
+     * Este test comprueba que el calculo de la nota media es correcto con una sola nota
+     */
+    @Test
+    void testUnaSolaNota() {
+        assertEquals(9.0, CalculadoraNotas.calcularMedia(new int[]{9}));
+    }
+    /**
+     * Este test salta cuando se detecta que el calculo de la nota media es vacio
+     */
+    @Test
+    void testListaVacia() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            CalculadoraNotas.calcularMedia(new int[]{});
+        });
+    }
+    /**
+     * Este test salta cuando se detecta que el calculo de la nota media es nulo
+     */
+    @Test
+    void testNotaFueraDeRango() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            CalculadoraNotas.calcularMedia(new int[]{5, 12, 8});
+        });
+    }
+}
 ```
 
 
