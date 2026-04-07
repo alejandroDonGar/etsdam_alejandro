@@ -247,4 +247,3 @@ Incluyendo:
 
 + captura del informe de JaCoCo
 + porcentaje final de cobertura
-
