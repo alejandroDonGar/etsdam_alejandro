@@ -10,18 +10,17 @@ public class CalculadoraNotas {
      * @param notas
      * @return La media de las notas
      */
-    public static int calcularMedia(int[] notas) {
-        if(notas.length == 0){
+    public static double calcularMedia(int[] notas) {
+        if (notas.length == 0) {
             throw new IllegalArgumentException("Lista vacía");
         }
         int suma = 0;
-        for(int nota : notas){
-
-            if(nota < 0 || nota > 10){
+        for (int nota : notas) {
+            if (nota < 0 || nota > 10) {
                 throw new IllegalArgumentException("Nota fuera de rango");
             }
             suma += nota;
         }
-        return suma / notas.length;
+        return (double) suma / notas.length;
     }
 }
