@@ -216,15 +216,15 @@ Tras añadir los nuevos tests debes volver a ejecutar los tests e intentar conse
 
 ## Clase Tests:
 
-![cobertura_test](img/Resultado%20Tests%20-%20Clase%20Tests.png)
+![cobertura_test](img/Clase%20Test.png)
 
 ## Terminal - mvn clean test:
 
-![cobertura_test](img/Resultados%20Tests%20-%20Terminal.png)
+![cobertura_test](img/MVN%20clean%20test.png)
 
 ## Cobertura Tests:
 
-![cobertura_test](img/Cobertura%20Test%20-%20JaCoCo.png)
+![cobertura_test](img/Cobertura.png)
 
 ### Reflexión final
 
