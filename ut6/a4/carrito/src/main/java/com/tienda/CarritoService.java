@@ -15,8 +15,8 @@ public class CarritoService {
      */
     public static double calcularSubtotal(List<Producto> carrito) {
         double subtotal = 0;
-        for (Producto p : carrito) {
-            subtotal += p.getPrecio();
+        for (Producto producto : carrito) {
+            subtotal += producto.getPrecio()*producto.getCantidad();
         }
         return subtotal;
     }
@@ -27,7 +27,10 @@ public class CarritoService {
      * @return Calculo del descuento sobre el carrito
      */
     public static double aplicarDescuento(double subtotal, double descuento) {
-        return subtotal - (subtotal * descuento / 100);
+        if(descuento > 100 || descuento < 0) {
+            throw new IllegalArgumentException("El descuento es invalido.");
+        }
+        return subtotal-(subtotal*descuento/100);
     }
     /**
      * Metodo que calcula el costo del envio del producto
@@ -35,7 +38,7 @@ public class CarritoService {
      * @return El costo final del envio
      */
     public static double calcularEnvio(double subtotal) {
-        if (subtotal > 100) {
+        if (subtotal >= 100) {
             return 0;
         } else {
             return 5;
