@@ -11,7 +11,6 @@ Durante la sesión se realizará un **análisis colectivo del código para detec
 - En esta práctica **no se debe modificar el código**.  
 - El trabajo consiste únicamente en **analizarlo y debatir sobre su calidad**.
 
-
 ### Instrucciones de la práctica
 
 Se proporciona un programa sencillo que simula un **sistema básico de gestión de pedidos**.
@@ -79,7 +78,6 @@ Cada grupo deberá entregar un documento que incluya:
 - una lista de los problemas detectados en el código
 - una breve explicación de cada problema
 - una posible mejora para cada caso
-
 
 ### Código a analizar
 
