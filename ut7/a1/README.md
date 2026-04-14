@@ -1,5 +1,6 @@
 # UT7-A1 – Identificación de “malos olores” en el código
 
+Grupo 1ºDAM: Alejandro - Jorge H - Juan Pablo
 
 ### Objetivo de la práctica
 
