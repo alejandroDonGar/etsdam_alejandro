@@ -2,7 +2,7 @@
 
 Grupo 1ºDAM: Alejandro - Jorge H - Juan Pablo
 
-### Objetivo de la práctica
+## Objetivo de la práctica
 
 El objetivo de esta práctica es **analizar un programa que funciona correctamente pero cuya calidad de código es mejorable**.
 
