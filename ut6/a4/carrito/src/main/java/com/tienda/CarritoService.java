@@ -13,7 +13,7 @@ public class CarritoService {
      * @param carrito
      * @return Sutotal del conjunto de los productos del carrito
      */
-    public double calcularSubtotal(List<Producto> carrito) {
+    public static double calcularSubtotal(List<Producto> carrito) {
         double subtotal = 0;
         for (Producto p : carrito) {
             subtotal += p.getPrecio();
@@ -26,7 +26,7 @@ public class CarritoService {
      * @param descuento
      * @return Calculo del descuento sobre el carrito
      */
-    public double aplicarDescuento(double subtotal, double descuento) {
+    public static double aplicarDescuento(double subtotal, double descuento) {
         return subtotal - (subtotal * descuento / 100);
     }
     /**
@@ -34,7 +34,7 @@ public class CarritoService {
      * @param subtotal
      * @return El costo final del envio
      */
-    public double calcularEnvio(double subtotal) {
+    public static double calcularEnvio(double subtotal) {
         if (subtotal > 100) {
             return 0;
         } else {
@@ -47,7 +47,7 @@ public class CarritoService {
      * @param descuento
      * @return El coste total de todos los items carrito
      */
-    public double calcularTotal(List<Producto> carrito, double descuento) {
+    public static double calcularTotal(List<Producto> carrito, double descuento) {
         double subtotal = calcularSubtotal(carrito);
         double conDescuento = aplicarDescuento(subtotal, descuento);
         double envio = calcularEnvio(subtotal);

@@ -1,4 +1,68 @@
 -------------------------------------------------------------------------------
 Test set: calculadora.CalculadoraNotasTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 s -- in calculadora.CalculadoraNotasTest
+Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.110 s <<< FAILURE! -- in calculadora.CalculadoraNotasTest
+calculadora.CalculadoraNotasTest.testMediaDecimal -- Time elapsed: 0.043 s <<< ERROR!
+java.lang.NoClassDefFoundError: calculadora/CalculadoraNotas
+	at calculadora.CalculadoraNotasTest.testMediaDecimal(CalculadoraNotasTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.ClassNotFoundException: calculadora.CalculadoraNotas
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 4 more
+
+calculadora.CalculadoraNotasTest.testMediaSimple -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.NoClassDefFoundError: calculadora/CalculadoraNotas
+	at calculadora.CalculadoraNotasTest.testMediaSimple(CalculadoraNotasTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.ClassNotFoundException: calculadora.CalculadoraNotas
+	... 4 more
+
+calculadora.CalculadoraNotasTest.testListaVacia -- Time elapsed: 0.013 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at calculadora.CalculadoraNotasTest.testListaVacia(CalculadoraNotasTest.java:40)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: calculadora/CalculadoraNotas
+	at calculadora.CalculadoraNotasTest.lambda$testListaVacia$0(CalculadoraNotasTest.java:41)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: calculadora.CalculadoraNotas
+	... 8 more
+
+calculadora.CalculadoraNotasTest.testNotaFueraDeRango -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.NoClassDefFoundError>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3111)
+	at calculadora.CalculadoraNotasTest.testNotaFueraDeRango(CalculadoraNotasTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NoClassDefFoundError: calculadora/CalculadoraNotas
+	at calculadora.CalculadoraNotasTest.lambda$testNotaFueraDeRango$1(CalculadoraNotasTest.java:50)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: calculadora.CalculadoraNotas
+	... 8 more
+
+calculadora.CalculadoraNotasTest.testUnaSolaNota -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NoClassDefFoundError: calculadora/CalculadoraNotas
+	at calculadora.CalculadoraNotasTest.testUnaSolaNota(CalculadoraNotasTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.ClassNotFoundException: calculadora.CalculadoraNotas
+	... 4 more
+
