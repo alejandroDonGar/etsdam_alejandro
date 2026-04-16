@@ -55,7 +55,7 @@ Para identificar posibles problemas puedes plantearte las siguientes cuestiones:
 
 ¿Hay **números que aparecen directamente en el código sin explicación**?
 
-- A simple vista vemos diferentes números que aparezcan sin aparente explicación haciendo que tal vez se llegue a confusión al leer el código.
+- A simple vista vemos diferentes números que aparezcen sin aparente explicación haciendo que tal vez se llegue a confusión al leer el código.
   
 ¿El código mezcla distintas responsabilidades?
 
