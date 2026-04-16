@@ -51,11 +51,11 @@ Para identificar posibles problemas puedes plantearte las siguientes cuestiones:
   
 ¿Se repite código en diferentes partes del programa?
 
-- NO se repite el código, pero está super desordenado y muy mal ubicado.
+- Lo que mas se repite es la función System.out.printnl.
 
 ¿Hay **números que aparecen directamente en el código sin explicación**?
 
-- A simple vista creemos que no hya números que aparezcan sin aparente explicación.
+- A simple vista vemos diferentes números que aparezcan sin aparente explicación haciendo que tal vez se llegue a confusión al leer el código.
   
 ¿El código mezcla distintas responsabilidades?
 
