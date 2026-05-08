@@ -11,14 +11,13 @@ import com.Utils.Validaciones;
  */
 public class Main {
     public static void main(String[] args) {
-
         tiendaService tienda = new tiendaService();
         /**
          * Creamos tres productos con sus respectivos id, nombre, precio y cantidad, y los agregamos a la tienda si son validos.
          */
         Producto producto1 = new Producto(1L, "Teclado", 30.0, 2);
-        Producto producto2 = new Producto(2L, "Raton", 15.0, 3);
-        Producto producto3 = new Producto(3L, "Monitor", 200.0, 1);
+        Producto producto2 = new Producto(2L, "Raton", 20.0, 3);
+        Producto producto3 = new Producto(3L, "Monitor", 2.0, 1);
         /**
          * Agregamos los productos a la tienda si son validos, utilizando el metodo agregarSiEsValido que valida cada producto antes de agregarlo a la tienda.
          * Si el producto no es valido, se muestra un mensaje indicando que el producto no es valido.

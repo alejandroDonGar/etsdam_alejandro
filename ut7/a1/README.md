@@ -42,7 +42,7 @@ Para identificar posibles problemas puedes plantearte las siguientes cuestiones:
 
 ¿Hay **métodos demasiado largos**?
 
-- Directamente no hay métodos, toda la logica del programa se está realizando dentro del main del programa.
+- Tenemos una "Clase dios" donde toda la logica del programa se está realizando dentro del main.
 
 ¿Las **variables tienen nombres claros y descriptivos**?
 
